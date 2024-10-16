@@ -36,8 +36,6 @@ public class VerifySigninPage extends Browser
 		System.out.println(expectedBrowser);
 		
 		driver = launchBrowser(expectedBrowser);
-		
-	
 	}
 	
 	@BeforeClass
@@ -46,7 +44,6 @@ public class VerifySigninPage extends Browser
 		 homePage=new HomePage(driver);
 		 signinPage=new SigninPage(driver);
 		 yourAccountResultPage=new YourAccountResultPage(driver);
-
 	}
 	
 	@BeforeMethod
